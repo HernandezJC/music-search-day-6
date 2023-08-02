@@ -33,8 +33,8 @@ const GalleryItem = (props) => {
                 'color': 'white'
             }}>
                 <h2>"{props.item.trackName}"</h2>
-                {/* <h3><Link to={`/artist/${props.item.artistId}`}>{props.item.artistName}</Link></h3> */}
-                {/* <p><Link to={`/album/${props.item.collectionId}`}>{props.item.collectionName}</Link></p> */}
+                {<h3><Link to={`/artist/${props.item.artistId}`}>{props.item.artistName}</Link></h3>}
+                {<p><Link to={`/album/${props.item.collectionId}`}>{props.item.collectionName}</Link></p>}
                 <h4>{props.item.primaryGenreName}</h4>
             </div>
         )
